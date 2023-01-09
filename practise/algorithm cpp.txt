@@ -1,0 +1,134 @@
+#include<iostream>
+
+using namespace std;
+
+//24 və 18 ədədinin ən böyük ortaq bölənini tapan alqoritm qurun.
+
+//void main()
+//{
+//	 
+//	int num1 = 24;
+//	int num2 = 18;
+//	int ebob = 1;
+//
+//	for (int i = 1; i <= 18; i++)
+//	{
+//		if (num1 % i == 0 && num2 % i == 0)
+//		{
+//			ebob = i;
+//		}
+//	}
+//
+//	cout << ebob << endl;
+//
+//
+//
+//}
+// 
+	//İsdifadəçi ədəd daxil edir. Daxil edilən ədəd 2-nin hansı quvvətinə qarşılıq gəldiyni hesablayan alqoritm qurun.
+
+//void main() {
+//	int number;
+//	int counter = 1;
+//
+//	cin >> number;
+//
+//	while (true)
+//	{
+//		if (number / 2 != 1)
+//		{
+//			counter++;
+//			number = number / 2;
+//		}
+//		else {
+//			break;
+//		}
+//	}
+//
+//	cout << counter << endl;
+//}
+
+//İsdifadəçi ədəd daxil edir. Daxil edilən ədədnin rəqəmlərnin kublarının cəmini tapan alqoritm qurun.
+//Misal 25 2 - nin kubu 8, 5 - in kubu 125, cəmi 133
+
+//void main() {
+//	int number;
+//
+//	cin >> number;
+//
+//	int newNumber1 = 0;
+//	int newNumber2 = 0;
+//
+//	newNumber1 = (number / 10) * (number / 10) * (number / 10);
+//	newNumber2 = (number % 10) * (number % 10) * (number % 10);
+//
+//	cout << newNumber1 + newNumber2 << endl;
+//
+//
+//}
+
+// İsdifadəçi 3 rəqəmli ədəd daxil edir. Daxil edilən ədədi tərsinə çevirən alqoritm qurun.
+//Misal 675 -- 576
+
+//void main() {
+//
+//	int number, num1, num2, num3, reverse;
+//
+//	while (true)
+//	{
+//		cin >> number;
+//		
+//		if (number > 99 && number < 1000)
+//		{
+//			break;
+//		}
+//		else {
+//			cout << "3 reqemli eded daxil edin" << endl;
+//		}
+//	}
+//
+//	num1 = number / 100;
+//	num2 = (number % 100) / 10;
+//	num3 = number % 10;
+//
+//	reverse = 100 * num3 + 10 * num2 + num1;
+//
+//	cout << reverse << endl;
+//
+//}
+
+//İsdifadəçi ədəd daxil edir. Daxil edilən ədədin rəqəmlərindən ən böyük olanının sayını tapan alqoritm qurun.
+//Misal 564949 --ən böyük ədədi 9dur 2 dəfə təkrarlanıb
+
+//void main() {
+//
+//
+//
+//
+//}
+
+//İsdifadəçi 3 rəqəmli ədəd daxil edir. Daxil Edilən ədəd həm əvvəlinə həm də sonuna 3 rəqəmini əlavə edən alqoritm qurun.
+//Misal 569 -- 35693
+
+//void main() {
+//
+//	int number, newnum;
+//
+//	while (true)
+//	{
+//		cin >> number;
+//
+//		if (number > 99 && number < 1000)
+//		{
+//			break;
+//		}
+//		else {
+//			cout << "3 reqemli eded daxil edin" << endl;
+//		}
+//	}
+//
+//	newnum = (number + 3000) * 10 + 3;
+//	cout << newnum << endl;
+//}
+
+
